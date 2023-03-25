@@ -11364,8 +11364,10 @@ p {
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
+  font-weight: bold;
+  font-size: 1.0 rem;
   color: #fff;
+  /* background-color: rgba(92, 128, 205, 0.30); */
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11421,6 +11423,55 @@ header.masthead {
   background-size: cover;
  
 }
+header.masthead-dos {
+  padding-top: 10.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/principal/contenedor7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead-tres {
+  padding-top: 10.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/principal/contenedor4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead-cuatro {
+  padding-top: 10.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/principal/contenedor6.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead-cinco {
+  padding-top: 10.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/principal/avion.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
