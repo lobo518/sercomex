@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --serco-azul:#004185;
+  --serco-azul:#ffffff;
   --serco-gris: #a1a1a1;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11415,12 +11415,14 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/principal/contenedor2.jpg");
+  color:#F1E30D; /* Color del texto */
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; 
+  background-image: url("../assets/img/principal/contenedor5.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  
  
 }
 header.masthead-dos {
@@ -11428,7 +11430,7 @@ header.masthead-dos {
   padding-bottom: 1.5rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/principal/contenedor7.jpg");
+  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11440,7 +11442,7 @@ header.masthead-tres {
   padding-bottom: 1.5rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/principal/contenedor4.jpg");
+
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11452,7 +11454,7 @@ header.masthead-cuatro {
   padding-bottom: 1.5rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/principal/contenedor6.jpg");
+ 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11464,7 +11466,7 @@ header.masthead-cinco {
   padding-bottom: 1.5rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/principal/avion.jpg");
+  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11473,8 +11475,8 @@ header.masthead-cinco {
 
 
 header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1rem;
+  font-style:normal;
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11493,8 +11495,8 @@ header.masthead .masthead-heading {
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
+    font-size: 2rem;
+    font-style: normal;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
